@@ -40,4 +40,16 @@ public class Gerente extends Funcionario {
        return super.toString() + "\nGERENTE\nBônus: " + bonus + "\nEquipe: " + equipe;
     }
 
+    @Override
+    public String trabalhar() {
+    
+    return "O gerente " + nome + "está trabalhando.";
+    }
+
+    @Override
+    public String relatarProgresso() {
+    
+    return "O gerente " + nome + " está comandando o projeto da equipe " + equipe + " de maneira eficiente!";
+    }
+
 }

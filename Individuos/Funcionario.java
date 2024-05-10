@@ -1,6 +1,7 @@
 package Individuos;
+import Trabalhavel.Trabalhavel;
 
-public abstract class Funcionario {
+public abstract class Funcionario implements Trabalhavel{
 
     private String nome;
     private String matricula;

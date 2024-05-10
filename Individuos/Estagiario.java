@@ -37,4 +37,16 @@ public class Estagiario extends Funcionario {
         return getSalario() * horasDeTrabalho;
     }
 
+    @Override
+    public String trabalhar() {
+    
+    return "O estagiário " + nome + " está trabalhando.";
+    }
+
+    @Override
+    public String relatarProgresso() {
+    
+    return "O estagiário " + nome + " está trabalhando em conjunto com seu supervisor: " + supervisor + ".";
+    }
+
 }

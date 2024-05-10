@@ -30,4 +30,16 @@ public class Desenvolvedor extends Funcionario {
         return getSalario();
     }
 
+    @Override
+    public String trabalhar() {
+    
+    return "O desenvolvedor " + nome + " está programando.";
+    }
+
+    @Override
+    public String relatarProgresso() {
+    
+    return "O desenvolvedor " + nome + " está utilizando estas linguagens: " + linguagens + ".";
+    }
+
 }
